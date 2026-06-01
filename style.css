@@ -105,9 +105,9 @@ p { font-size: 1.6rem; }
 }
 
 .container{
-    width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-inline: auto;
+    min-height: 100vh;
     padding: 0 2rem;
 }
 
@@ -132,22 +132,6 @@ p { font-size: 1.6rem; }
 
 @media screen and (max-width: 480px) {
     html { font-size: 43.75%; }
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    font-size: 1.6rem;
-}
-
-/* Перекрываем для планшета */
-/* @media screen and (max-width: 1024px) {
-    {margin: 0 ;} */
-}
-
-/* Перекрываем для телефона */
-@media screen and (max-width: 480px) {
-    .card { padding: 1rem; }
 }
 
 @media screen and (max-width: 1024px) {
